@@ -15,7 +15,7 @@ require_once('actions.php');
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>WEB Mutator</title>
+	<title>/>_</title>
 	<link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
