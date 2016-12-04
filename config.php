@@ -14,6 +14,9 @@ return [
 			// !!! change your password
 			'password' => 'user'
 		]
-	]
+	   
+	  ]
+    
+    ]
 ];
 ?>
