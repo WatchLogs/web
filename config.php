@@ -5,7 +5,7 @@ return [
 	'secret' => 'u65hb5nsd3io0e90ie9p0rzhj4yhqujh',
 	'users' => [
 		'admin' => [
-			'name' => 'User',
+			'name' => 'Try Try',
 			// !!! change your password
 			'password' => 'admin'
 		]
