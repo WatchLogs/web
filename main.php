@@ -7,7 +7,7 @@
 		<button id="editor-copy" class="disabled" title="copy"><span class="fa fa-copy"></span></button>
 		<button id="editor-cut" class="disabled" title="cut"><span class="fa fa-cut"></span></button>
 		<button id="editor-paste" title="paste"><span class="fa fa-paste"></span></button>
-		<input id="editor-search-input" type="text" placeholder="search...">
+		<input id="editor-search-input" type="text" placeholder="поиск...">
 		<button id="editor-search" title="search"><span class="fa fa-search"></span></button>
 		<button id="editor-settings" title="settings"><span class="fa fa-cogs"></span></button>
 	</div>
