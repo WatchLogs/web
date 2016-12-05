@@ -14,7 +14,7 @@ body {
 
 .console {
   position: fixed;
-  font-family: monospace,monospace;
+  font-family: 'Orbitron', sans-serif!important;
   color: #fff;
   width: calc(100% - 3em);
   max-width: 100%;
