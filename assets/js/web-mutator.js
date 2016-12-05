@@ -888,7 +888,7 @@ var webmutator = function () {
 			var session = editor.getSession();
 
 			ace.require('ace/ext/settings_menu').init(editor);
-			editor.setTheme('ace/theme/twilight');
+			editor.setTheme('ace/theme/ambiance');
 
 			editor.commands.addCommand({
 				name: 'save',
