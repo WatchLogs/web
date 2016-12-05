@@ -12,7 +12,7 @@ require_once('init.php');
 require_once('actions.php');
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<title>/>_</title>
