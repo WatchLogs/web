@@ -9,6 +9,12 @@ return [
 			// !!! change your password
 			'password' => 'admin'
 		]
+		
+		'user' => [
+			'name' => 'user',
+			// !!! change your password
+			'password' => 'user'
+		]
 	]
 ];
 ?>
