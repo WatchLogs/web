@@ -10,11 +10,7 @@ return [
 			'password' => 'admin'
 		]
 		
-		'user' => [
-			'name' => 'user',
-			// !!! change your password
-			'password' => 'user'
-		]
+		
 	]
 ];
 ?>
