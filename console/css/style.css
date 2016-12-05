@@ -45,6 +45,7 @@ body {
   appearance: none;
   min-width: calc(100% - 2em);
   resize: none;
+  font-weight:900;
 }
 
 .console-input:before {
