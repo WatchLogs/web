@@ -1,17 +1,17 @@
 <header id="toolbar">
 	<div id="user-name"><?= $user['name'] ?></div>
 	<div id="editor-buttons">
-		<button id="editor-undo" class="disabled" title="undo"><span class="fa fa-undo"></span></button>
-		<button id="editor-redo" class="disabled" title="redo"><span class="fa fa-repeat"></span></button>
-		<button id="editor-save" class="disabled" title="save"><span class="fa fa-save"></span></button>
-		<button id="editor-copy" class="disabled" title="copy"><span class="fa fa-copy"></span></button>
-		<button id="editor-cut" class="disabled" title="cut"><span class="fa fa-cut"></span></button>
-		<button id="editor-paste" title="paste"><span class="fa fa-paste"></span></button>
+		<button id="editor-undo" class="disabled" title="отменить"><span class="fa fa-undo"></span></button>
+		<button id="editor-redo" class="disabled" title="повторить"><span class="fa fa-repeat"></span></button>
+		<button id="editor-save" class="disabled" title="сохранить"><span class="fa fa-save"></span></button>
+		<button id="editor-copy" class="disabled" title="копировать"><span class="fa fa-copy"></span></button>
+		<button id="editor-cut" class="disabled" title="вырезать"><span class="fa fa-cut"></span></button>
+		<button id="editor-paste" title="вставить"><span class="fa fa-paste"></span></button>
 		<input id="editor-search-input" type="text" placeholder="поиск...">
-		<button id="editor-search" title="search"><span class="fa fa-search"></span></button>
-		<button id="editor-settings" title="settings"><span class="fa fa-cogs"></span></button>
+		<button id="editor-search" title="поиск"><span class="fa fa-search"></span></button>
+		<button id="editor-settings" title="настройки"><span class="fa fa-cogs"></span></button>
 	</div>
-	<a id="logout" href="?logout" title="logout"><span class="fa fa-sign-out"></span></a>
+	<a id="logout" href="?logout" title="выход"><span class="fa fa-sign-out"></span></a>
 </header>
 
 <div class="content">
@@ -23,13 +23,13 @@
 		<ul id="tree-list"></ul>
 		<div id="tree-toolbar">
 			<div id="tree-butons">
-				<button class="tree-add-folder disabled" title="create folder"><span class="fa fa-folder-o"></span></button>
-				<button class="tree-add-file disabled" title="create file"><span class="fa fa-file-o"></span></button>
-				<button class="tree-rename disabled" title="rename"><span class="fa fa-i-cursor"></span></button>
-				<button class="tree-download disabled" title="download"><span class="fa fa-download"></span></button>
+				<button class="tree-add-folder disabled" title="создать папку"><span class="fa fa-folder-o"></span></button>
+				<button class="tree-add-file disabled" title="создать файл"><span class="fa fa-file-o"></span></button>
+				<button class="tree-rename disabled" title="переименовать"><span class="fa fa-i-cursor"></span></button>
+				<button class="tree-download disabled" title="скачать"><span class="fa fa-download"></span></button>
 				<input id="upload-file" type="file" multiple="true">
-				<button class="tree-upload disabled" title="upload"><span class="fa fa-upload"></span></button>
-				<button class="tree-delete disabled" title="delete"><span class="fa fa-remove"></span></button>
+				<button class="tree-upload disabled" title="загрузить"><span class="fa fa-upload"></span></button>
+				<button class="tree-delete disabled" title="удалить"><span class="fa fa-remove"></span></button>
 			</div>
 		</div>
 		<div id="tree-busy"></div>
