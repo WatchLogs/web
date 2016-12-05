@@ -80,6 +80,7 @@ body {
 .output-cmd {
   display: block;
   white-space: pre;
+  font-weight: 900;
 }
 
 #outputs div {
