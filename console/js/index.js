@@ -224,9 +224,9 @@ var cmds = {
 
 // Welcome message
 setTimeout( () => {
-  output('(If you want to write your own app using this console UI checkout [HTML5 Console Site](http://codepen.io/wmhilton/pen/PbGqQG))')
+ // output('(If you want to write your own app using this console UI checkout [HTML5 Console Site](http://codepen.io/wmhilton/pen/PbGqQG))')
   output('')
-  output('## Welcome to the Interactive OpenPGP console program.')
+  output('## Interactive OpenPGP console program.')
   output(help())
 }, 0)
 
