@@ -72,3 +72,8 @@ class PHPTor {
         return curl_exec($this->curl);
     }
 }
+
+
+$tor = new PHPTor();
+$tor->torConnection();
+$tor->request('http://google.com');
